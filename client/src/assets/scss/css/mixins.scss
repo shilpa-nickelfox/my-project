@@ -1,0 +1,108 @@
+
+// buttons
+
+@mixin theme-btn{
+    @include bgred;
+    border-radius: 0;
+    min-width: 220px;
+    padding: 13px 15px 14px 15px;
+    font-size: 18px;
+    @include till-large{
+        padding: 10px 15px 12px 15px;
+        font-size: 15px;
+    }
+    @include mobilePotrait{
+        min-width: 100%;
+    }
+
+}
+
+@mixin button-transparent-one{
+    background-color: #ffffff;
+    color: #b91918;
+    border-color: #b91918;
+}
+
+@mixin button-transparent-two{
+    background-color: #ffffff;
+    color: #0d6db4;
+    border-color: #0d6db4;
+}
+
+@mixin flex-property{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+@mixin large {
+    @media(max-width: 1599px) {
+        @content;
+    }
+}
+
+
+@mixin till-large {
+    @media(max-width: 1439px) {
+        @content;
+    }
+}
+
+
+
+@mixin midLarge {
+    @media(max-width: 1500px) {
+        @content;
+    }
+}
+
+@mixin medium {
+    @media(max-width: 1200px) {
+        @content;
+    }
+}
+
+
+@mixin till-tablet {
+    @media (max-width: 1024px) {
+        @content;
+    }
+}
+
+
+@mixin tablet-portrait {
+    @media (max-width: 991px) {
+        @content;
+    }
+}
+
+@mixin mobileLandscape {
+    @media(max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin mobilePotrait {
+    @media(max-width: 574px) {
+        @content;
+    }
+}
+
+@mixin smallMobile {
+    @media (max-width: 414px) {
+        @content;
+    }
+}
+
+@mixin miniMobile {
+    @media (max-width: 375px) {
+        @content;
+    }
+}
+@mixin miniMobileend {
+    @media (max-width: 320px) {
+        @content;
+    }
+}

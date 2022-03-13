@@ -1,0 +1,69 @@
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../../fonts/Poppins-Light.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-ExtraLight";
+    src: url("../../fonts/Poppins-ExtraLight.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../../fonts/Poppins-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../../fonts/Poppins-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../../fonts/Poppins-Bold.ttf");
+}
+
+@font-face {
+    font-family: "Pacifico-Regular";
+    src: url("../../fonts/Pacifico-Regular.ttf");
+}
+
+@font-face {
+    font-family: "AlexBrush-Regular";
+    src: url("../../fonts/AlexBrush-Regular.ttf");
+}
+
+@font-face {
+    font-family: "BentonModDisp-Semibold";
+    src: url("../../fonts/BentonModDisp-Semibold.otf");
+}
+
+.container {
+    max-width: 1200px !important;
+}
+img {
+    max-width: 100%;
+}
+
+h2 {
+    font-family: "Poppins-Bold" !important;
+}
+
+h3 {
+    font-family: "Poppins-SemiBold" !important;
+}
+
+h4 {
+    font-family: "Poppins-Medium" !important;
+}
+
+body {
+    font-family: "Poppins-Regular" !important;
+    // background-color: #e8d3b6;
+}
